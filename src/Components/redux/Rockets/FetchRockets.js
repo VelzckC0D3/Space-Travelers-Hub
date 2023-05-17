@@ -9,9 +9,9 @@ const fetchRockets = createAsyncThunk('mission/fetchRockets', async () => {
   // Extracting mission_id, mission_name, and description from the API response
   const rockets = data.map((rocket) => ({
     id: rocket.id,
-    rocket_name: rocket.rocket_name,
-    rocket_type: rocket.rocket_type,
-    flickr_images: rocket.flickr_images,
+    name: rocket.rocket_name,
+    description: rocket.description,
+    images: rocket.flickr_images,
   }));
 
   return rockets;
