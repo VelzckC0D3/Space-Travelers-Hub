@@ -21,6 +21,11 @@
 
 .rocket-name {
   height: 0rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.rockect-des {
+  font-family: "Roboto Slab", serif;
 }
 
 .rocket-btn {
