@@ -46,3 +46,9 @@
   color: rgb(0, 119, 255);
   text-decoration: none;
 }
+
+.active {
+  color: rgb(0, 85, 182) !important;
+  text-decoration: underline !important;
+  -webkit-text-stroke: 0.5px;
+}
