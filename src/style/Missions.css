@@ -1,0 +1,57 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem 1rem;
+}
+
+.missionsCont {
+  margin: 2rem 4rem;
+}
+
+.tableTop {
+  text-align: start;
+}
+
+.missionName {
+  -webkit-text-stroke: 0.7px;
+  top: 0;
+  min-width: 7rem;
+  max-width: 7rem;
+}
+
+.btnCont {
+  width: 8rem;
+}
+
+.memberBtn {
+  border: none;
+  background-color: gray;
+  border-radius: 5px;
+  -webkit-text-stroke: 0.3px;
+  color: white;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.memberBtn:active {
+  background-color: rgb(92, 92, 92);
+  transform: scale(0.95);
+}
+
+.joinBtn {
+  background-color: white;
+  border: 2px solid grey;
+  color: rgb(72, 72, 72);
+  border-radius: 6px;
+  -webkit-text-stroke: 0.2px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.joinBtn:active {
+  border: 2px solid black;
+  color: black;
+  transform: scale(0.95);
+}

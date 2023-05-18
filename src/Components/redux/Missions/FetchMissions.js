@@ -8,8 +8,8 @@ const fetchMissions = createAsyncThunk('mission/fetchMissions', async () => {
 
   // Extracting mission_id, mission_name, and description from the API response
   const missions = data.map((mission) => ({
-    mission_id: mission.mission_id,
-    mission_name: mission.mission_name,
+    id: mission.mission_id,
+    name: mission.mission_name,
     description: mission.description,
   }));
 
