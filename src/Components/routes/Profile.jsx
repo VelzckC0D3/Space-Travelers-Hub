@@ -9,8 +9,7 @@ const Profile = () => {
 
   return (
     <div>
-      <h1 className="missionsH1">Missions</h1>
-      <h2>Joined Missions:</h2>
+      <h2 className="missionsH1">My Missions</h2>
       <ul>
         {joinedMissions.map((mission) => (
           <li key={mission.id}>{mission.name}</li>
