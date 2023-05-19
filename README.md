@@ -1,14 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <img src="./Readme/Umbrella.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Bookstore</b></h3>
-
-</div>
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)

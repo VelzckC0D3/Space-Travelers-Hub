@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import fetchRockets from '../redux/Rockets/FetchRockets';
-import '../../style/Rocket.css';
+import '../../style/Rockets.css';
 
 const Rockets = () => {
   const dispatch = useDispatch();
@@ -12,24 +12,26 @@ const Rockets = () => {
   }, [dispatch]);
 
   return (
-    <div>
-      <ul className="rockets-container">
+    <>
+      <ul className="rocketsCont">
         {rockets.map((rocket) => (
           <>
-            <li key={rocket.id} className="rocket-list">
-              <div>
-                <img src={rocket.images[0]} alt="RocketImage" className="rocket-img" />
-              </div>
-              <div className="rocket-inf">
-                <h2 className="rocket-name">{rocket.name}</h2>
-                <p className="rocket-des">{rocket.description}</p>
-                <button type="button" className="rocket-btn">Reserve Rocket</button>
+            <li key={rocket.id} className="rocket">
+              <div
+                className="rocketImg"
+                style={{ backgroundImage: `url(${rocket.images[0]})` }}
+                alt="Rocket_Image"
+              />
+              <div className="rocketInf">
+                <h2 className="rocketName">{rocket.name}</h2>
+                <p className="rocketDes">{rocket.description}</p>
+                <button type="button" className="rocketBtn">Reserve Rocket</button>
               </div>
             </li>
           </>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 
