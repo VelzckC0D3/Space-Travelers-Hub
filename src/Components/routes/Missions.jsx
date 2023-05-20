@@ -1,21 +1,28 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import fetchMissions from '../redux/Missions/FetchMissions';
+import fetchMissions from '../../redux/Missions/FetchMissions';
 import '../../style/Missions.css';
-import { joinigMission } from '../redux/Missions/MissionsSlices';
+import { joinedMissions } from '../../redux/Missions/MissionsSlices';
 
 const Missions = () => {
   const dispatch = useDispatch();
   const missions = useSelector((state) => state.Missions.missions);
 
   useEffect(() => {
-    dispatch(fetchMissions());
-  }, [dispatch]);
+    // Fetch missions only if the missions data is empty
+    if (missions.length === 0) {
+      dispatch(fetchMissions());
+    }
+  }, [dispatch, missions]);
+
+  const handleJoinMission = (missionId) => {
+    dispatch(joinedMissions(missionId));
+  };
 
   return (
     <table className="missionsCont">
       <thead>
-        <tr className="mission">
+        <tr>
           <th className="tableTop">Mission</th>
           <th className="tableTop">Description</th>
           <th className="tableTop">Status</th>
@@ -27,18 +34,22 @@ const Missions = () => {
             <td valign="top" className="missionName">{mission.name}</td>
             <td className="missionDesc">{mission.description}</td>
             <td align="center" className="btnCont">
-              <button className="memberBtn missionBtn" type="button">NOT A MEMBER</button>
+              <button
+                className={`memberBtn missionBtn ${mission.joined ? 'member' : ''}`}
+                type="button"
+              >
+                {mission.joined ? 'Active Member' : 'Not a Member'}
+              </button>
             </td>
             <td align="center" className="btnCont">
               <button
-                className="joinBtn missionBtn"
+                className={`joinBtn missionBtn ${mission.joined ? 'joined' : ''}`}
                 type="button"
                 onClick={() => {
-                  dispatch(joinigMission(mission.id));
+                  handleJoinMission(mission.id);
                 }}
               >
-                Join Mission
-
+                {mission.joined ? 'Leave Mission' : 'Join Mission'}
               </button>
             </td>
           </tr>
