@@ -60,7 +60,7 @@ With StellarVoyage, the possibilities of space travel become accessible to all. 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- You can see a live Demo of this proyect <a href="/" >HERE</a>
+- You can see a live Demo of this proyect <a href="https://space-travelers-danfall-velzckc0d3.netlify.app/" >HERE</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
