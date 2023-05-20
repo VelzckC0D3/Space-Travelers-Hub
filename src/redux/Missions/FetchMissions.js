@@ -11,7 +11,7 @@ const fetchMissions = createAsyncThunk('mission/fetchMissions', async () => {
     id: mission.mission_id,
     name: mission.mission_name,
     description: mission.description,
-    reserved: false,
+    joined: false,
   }));
 
   return missions;

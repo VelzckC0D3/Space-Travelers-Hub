@@ -1,4 +1,29 @@
-.missionsH2 {
+.profileCont {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.profileTitle {
+  margin: 1rem 0;
+}
+
+.missions,
+.rockets {
+  width: 50%;
+}
+
+.joinedTable,
+.reservedTable {
   margin: 0;
   padding: 0;
+  width: 95%;
+}
+
+.joinedTd,
+.reservedTd {
+  border: 1px solid rgb(189, 189, 189);
+  border-collapse: collapse;
+  height: 4rem;
+  box-sizing: border-box;
 }
