@@ -62,6 +62,9 @@ With StellarVoyage, the possibilities of space travel become accessible to all. 
 
 - You can see a live Demo of this proyect <a href="https://spaceship-missions.netlify.app/" >HERE</a>
 
+![Captura de pantalla 2023-05-28 174753](https://github.com/Danfall369/Space-Travelers-Hub/assets/122949998/ccc73c48-4414-47c9-991d-e68295026cc9)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
