@@ -1,9 +1,11 @@
 <a name="readme-top"></a>
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
@@ -11,62 +13,69 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
+- [👥 Author](#author)
+- [🔭 Features](#features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-# 📖 Bookstore <a name="about-project"></a>
+# 📖 [Space Travellers] `ES6` `React` `Redux` `API` <a name="about-project"></a>
 
+![space-mocap](https://github.com/Danfall369/Space-Travelers-Hub/assets/92229666/6cf11b66-238e-4e1b-9e3d-ece8ca2f033b)
 
-**Bookstore** Introducing StellarVoyage: A Cutting-Edge Web Application for Space Travel Enthusiasts
-
-StellarVoyage is a revolutionary web application designed for a leading company in the field of commercial and scientific space travel services. With its user-friendly interface and advanced features, this application empowers users to embark on extraordinary journeys beyond Earth's atmosphere.
-
-🚀 Booking Rockets Made Effortless
-
-🚀 Join Elite Space Missions
-
-🚀 Seamless Booking Experience
-
-🚀 Personalized User Profiles
-
-🚀 Real-time Updates and Notifications
-
-🚀 Expert Support and Assistance
-
-With StellarVoyage, the possibilities of space travel become accessible to all. Embark on a thrilling adventure, push the boundaries of human exploration, and witness the wonders of the universe with this state-of-the-art web application. Get ready to redefine your understanding of travel and ignite your passion for the cosmos like never before.
+This is a user-friendly web app that lets you explore a variety of rockets and missions for your space travel aspirations. With seamless integration of React and Redux, it fetches data from the Space X API, providing a wide range of rocket and mission options. Your selected choices are stored persistently using browser local storage, ensuring easy retrieval and review. Experience the thrill of selecting your dream rocket and mission, and embark on an imaginary journey to the stars with Space Travellers.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- **[React App]**
-- **[React Redux]**
-- **[SpaceX API]**
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+    <summary>Client</summary>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+      <li><a href="https://react.dev/">React</a></li>
+      <li><a href="https://redux-toolkit.js.org/">Redux</a></li>
+      <li><a href="https://testing-library.com/docs/react-testing-library/intro/">React-Testing-Library</a></li>
+      <li><a href="https://reactrouter.com/en/main">React-Router</a></li>
+      <li><a href="https://www.w3schools.com/js/js_es6.asp">ES6</a></li>
+    </ul>
+  </details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+   <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">LocalStorage</a></li>
+   <li><a href="https://rapidapi.com/digiwalls/api/free-to-play-games-database">Space X Api using PostMan</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Its a simple design]**
-- **[its clear]**
-- **[its friendly]**
+  - **[Interactive]** Provides an engaging and interactive user experience, enhancing user interaction.
+  - **[Reliable]** Built with robustness in mind, delivering reliable performance and stability for seamless usage.
+  - **[Efficient]** Optimized for efficiency, maximizing resource utilization and delivering swift response times.
+  - **[Tested]** Thoroughly tested using industry-standard testing methodologies, ensuring high quality and reliability.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & preview <a name="live-demo"></a>
 
+![ezgif com-optimize (2)](https://github.com/Danfall369/Space-Travelers-Hub/assets/92229666/bc37f751-81e3-473f-af1f-54dab32d66d3)
 
-- You can see a live Demo of this proyect <a href="https://spaceship-missions.netlify.app/" >HERE</a>
-
-![Captura de pantalla 2023-05-28 174753](https://github.com/Danfall369/Space-Travelers-Hub/assets/122949998/ccc73c48-4414-47c9-991d-e68295026cc9)
-
+- _You can visit the live demo [here](https://spaceship-missions.netlify.app/)_
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -74,34 +83,26 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need the following tools:
-- Node.js in your computer
-- IDE(e.g.: Vscode,...)
-- Terminal
+In order to run this project you need:
+
+```sh
+ To have a computer, Internet, Keyboard and Mouse
+```
 
 ### Setup
 
-Clone this repository to your desired folder by running the following commands in your terminal:
+Clone this repository to your desired folder:
 
 ```sh
-  cd your-prefered-folder-name
-  
-  git clone https://github.com/Danfall369/react-redux-group-project.git
+  Open it with Visual Studio Code (or your preffered IDE), and open a server with "LiveServer".
 ```
 
 ### Install
 
-- Install this project with:
+Install this project with:
 
 ```sh
-  cd react-redux-group-project
-
-  npm install or npm i
-```
-
-- Run an optimized build for prodction:
-```
-  npm run build
+  Installation is not necessary
 ```
 
 ### Usage
@@ -109,77 +110,77 @@ Clone this repository to your desired folder by running the following commands i
 To run the project, execute the following command:
 
 ```sh
-  npm start
-
+npm run start
 ```
 
-### Run tests
+### Deployment
 
-To run tests, run the following command:
+You can deploy this project following these steps:
 
 ```sh
-  npm run test
+Open the console and run the command: npm run build
+This command will build the project for deployment.'
+```
+```sh
+Once the build process is complete, run the command: npm run start
+This command will start the deployment process.
+```
+```sh
+The website will be deployed and accessible for use.
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHOR -->
 
+## 👥 Authors <a name="author"></a>
 
-## 👥 Authors <a name="authors"></a>
+- GitHub: [@VelzckC0D3](https://github.com/VelzckC0D3) | [Danfall369](https://github.com/Danfall369)
+- LinkedIn: [Danfall369](https://www.linkedin.com/in/danfall/) | [VelzckC0D3](https://www.linkedin.com/in/velzckcode/)
 
+<!-- FEATURES -->
 
-👤 **Daniel Falcon**
+## 🔭 Features <a name="features"></a>
 
-- GitHub: [@Danfall369](https://github.com/Danfall369)
-- Twitter: [@Danfall369](https://twitter.com/Danfall369)
-- Linkeid [@Danfall369](https://www.linkedin.com/in/danfall369/)
+- [ ] **[Reserve Rocket]** Select you favorite Rocket, It'll be storaged on the localstorage so the data is retreived on your Profile! 
+- [ ] **[Start Mission]** Select your favorite Mission, same logic as the rocket.
+- [ ] **[Check Your Profile]** Here, the LocalStorage is loaded to render the actual Rocket & Mission that you've selected.
+- [ ] **[React Redux Integration]** Using React & Redux to fetch the information from the API and create a global State to interact with Reducers.
+- [ ] **[Integration with Space X API]** This is the Data Base that we are using to provide all the information. 
 
-
-👤 **Alejandro Velasquez**
-
-- GitHub: [@VelzckC0D3](https://github.com/VelzckC0D3)
-- Twitter: [@velzck](https://twitter.com/velzck)
-- Linkeid [alejandro.velzck](https://www.linkedin.com/in/velzckcode/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **[More Desings]**
-- **[More Functions]**
-- **[More Content]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check my issues section in <a href="https://github.com/Danfall369/React-Redux-group-project/issues">Here!</a>
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project please give me a comment!
+If you like this project, be pending on our profiles since we'll be doing much more! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thanks to a Microverse fort the support!
+Also, we would like to thanks our Microverse Team and partners for helping us to get this done.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./Readme/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
