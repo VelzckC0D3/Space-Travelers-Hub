@@ -1,4 +1,9 @@
 <a name="readme-top"></a>
+
+<div align="center">
+  <img src="https://github.com/VelzckC0D3/SQL_Database/assets/92229666/64c8d8a7-b625-4a25-847a-ea02e00df2f4" alt="Sin título-1">
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -25,7 +30,10 @@
 
 # 📖 [Space Travellers] `ES6` `React` `Redux` `API` <a name="about-project"></a>
 
+<div align="center">
+
 ![space-mocap](https://github.com/Danfall369/Space-Travelers-Hub/assets/92229666/6cf11b66-238e-4e1b-9e3d-ece8ca2f033b)
+</div>
 
 This is a user-friendly web app that lets you explore a variety of rockets and missions for your space travel aspirations. With seamless integration of React and Redux, it fetches data from the Space X API, providing a wide range of rocket and mission options. Your selected choices are stored persistently using browser local storage, ensuring easy retrieval and review. Experience the thrill of selecting your dream rocket and mission, and embark on an imaginary journey to the stars with Space Travellers.
 
@@ -68,7 +76,10 @@ This is a user-friendly web app that lets you explore a variety of rockets and m
 
 ## 🚀 Live Demo & preview <a name="live-demo"></a>
 
+<div align="center">
+
 ![ezgif com-optimize (2)](https://github.com/Danfall369/Space-Travelers-Hub/assets/92229666/bc37f751-81e3-473f-af1f-54dab32d66d3)
+</div>
 
 - _You can visit the live demo [here](https://spaceship-missions.netlify.app/)_
  
